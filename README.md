@@ -80,4 +80,6 @@ Additionally the console supports
 - #### Named Parameters
   ##### `<command> <class name> (<named_parameters>)` syntax.
   **Ex:** `create Amenity name="WiFi"`
+
+
 **NOTE:** Before you push any commit, please run the script `./test.bash` to ensure that no tests are failing and your code complies with this project's styling standard.
