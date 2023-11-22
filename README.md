@@ -45,4 +45,39 @@ AirBnB_clone_v2
 * quit/EOF - quit the console
 * help - see descriptions of commands
 
+ #### Create
+  `create <class name>`
+  Ex:
+  `create BaseModel`
 
+  #### Show
+  `show <class name> <object id>`
+  Ex:
+  `show User my_id`
+
+  #### Destroy
+  `destroy <class name> <object id>`
+  Ex:
+  `destroy Place my_place_id`
+
+  #### All
+  `all` or `all <class name>`
+  Ex:
+  `all` or `all State`
+
+  #### Quit
+  `quit` or `EOF
+
+ #### Help
+  `help` or `help <command>`
+  Ex:
+  `help` or `help quit`
+
+## Alternate Syntax
+Additionally the console supports 
+- ##### `<class name>.<command>(<parameters>)` syntax.
+  **Ex:** `City.show(my_city_id)`
+- #### Named Parameters
+  ##### `<command> <class name> (<named_parameters>)` syntax.
+  **Ex:** `create Amenity name="WiFi"`
+**NOTE:** Before you push any commit, please run the script `./test.bash` to ensure that no tests are failing and your code complies with this project's styling standard.
